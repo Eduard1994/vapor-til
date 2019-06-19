@@ -18,7 +18,62 @@ public func routes(_ router: Router) throws {
     router.get("api") { req -> String in
         return """
 [
-    { "name": "Քոչարի" }, { "name": "Լորկե" }, { "name": "Ուզունդարա" }, { "name": "Ֆնջան" }, { "name": "Գորանի" }, { "name": "Լուտկի" }, { "name": "Քերծի" }, { "name": "Էնզելի" }, { "name": "Վերվերի" }, { "name": "Թարս Պար" }, { "name": "Ռոստամ Բազի" }, { "name": "Բերդ" }, { "name": "Սասնա Քոչարի" }, { "name": "Յարխուշտա" }
+    {
+        "name": "Քոչարի",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Լորկե",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Ուզունդարա",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Ֆնջան",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Գորանի",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Լուտկի",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Քերծի",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Էնզելի",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Վերվերի",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Թարս Պար",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Ռոստամ Բազի",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Բերդ",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Սասնա Քոչարի",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    },
+    {
+        "name": "Յարխուշտա",
+        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+    }
 ]
 """
 
