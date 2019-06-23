@@ -20,7 +20,7 @@ public func routes(_ router: Router) throws {
 [
     {
         "name": "Քոչարի",
-        "image": "https://avatars.mds.yandex.net/get-pdb/1101614/9db29b75-df41-4190-93db-5ff05d325429/s1200?webp=false"
+        "image": "http://hayernaysor.am/wp-content/uploads/2018/03/1394082.jpg"
     },
     {
         "name": "Լորկե",
